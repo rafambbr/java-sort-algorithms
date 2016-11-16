@@ -32,8 +32,8 @@ public class MergeSort {
 	}
 
 	private static void merge(int[] itens, int[] tmpArray, int left, int right, int subRight) {
+	    int tmpIndex = left;
 		int subLeft = right - 1;
-		int tmpIndex = left;
 		
 		while (left <= subLeft && right <= subRight){
 			if (itens[left] < itens[right] ){
