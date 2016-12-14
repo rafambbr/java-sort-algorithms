@@ -9,6 +9,7 @@ Implementations using pure java to solve some problems
 
 ## Algorithms
 * Fibonacci
+* Prime Number
 * Perfect Number
 * Perfect Square
 * Even Odd
